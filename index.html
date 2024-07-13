@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | Job Listings</title>
+  </head>
+  <body>
+    <main>
+      <div class="hero-bg"></div>
+
+      <div class="filtered-card container">
+        <div class="btn-container">
+          <!--we will create this dynamically in JS-->
+          <div class="btn-filtered">
+            <div>CSS</div>
+            <button class="btn-remove">
+              <img src="images/icon-remove.svg" alt="" />
+            </button>
+          </div>
+        </div>
+
+        <div class="clear">Clear</div>
+      </div>
+
+      <div class="cards-all"></div>
+      <!-- we will create this all in JS
+
+      <div class="card container">
+        <div class="card-main">
+          <div class="logo">
+            <img src="images/photosnap.svg" alt="" />
+          </div>
+          <div class="card-main-top">
+            <div class="company">Photosnap</div>
+            <button class="btn-new new">NEW!</button>
+            <button class="btn-featured">FEATURED</button>
+          </div>
+          <div class="card-main-position position">
+            <h1>Senior Frontend Developer</h1>
+          </div>
+          <div class="card-main-bottom">
+            <div class="postedAt">1d ago</div>
+            <div class="dot"></div>
+            <div class="contract">Full Time</div>
+            <div class="dot"></div>
+            <div class="location">USA only</div>
+          </div>
+        </div>
+        <div class="card-languages">
+          <button class="btn-main-card" data-type="Frontend" >Frontend</button>
+          <button class="btn-main-card" data-type="Senior">Senior</button>
+          <button class="btn-main-card" data-type="HTML">HTML</button>
+          <button class="btn-main-card" data-type="Javascript">JavaScript</button>
+        </div>
+      </div>
+
+    --></main>
+  </body>
+  <script src="app.js"></script>
+</html>
